@@ -7,10 +7,10 @@ $container['events'] = function (){
 $container['settings'] = function (){
     return [
             'db' => [
-                'dsn' => 'mysql:host=localhost;',
-                'database' => 'pp_project_manager',
-                'username' => 'root',
-                'password' => '1234',
+                'dsn' => 'mysql:host=us-cdbr-iron-east-01.cleardb.net;',
+                'database' => 'heroku_93aa2de8e50a437',
+                'username' => 'b542637a486a8f',
+                'password' => '04d3d573',
                 'options' => [
                     \PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
                 ]
